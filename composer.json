@@ -1,0 +1,12 @@
+{
+	"require":{
+		"nikic/fast-route":"*"
+	},
+	"autoload":{
+		"psr-4":{
+			"lOngmon\\userExtra\\kernel\\":"kernel/",
+			"lOngmon\\userExtra\\usr\\":"usr/",
+			"lOngmon\\userExtra\\app\\":"app/"
+		}
+	}
+}
