@@ -4,9 +4,12 @@
 	},
 	"autoload":{
 		"psr-4":{
-			"lOngmon\\userExtra\\kernel\\":"kernel/",
-			"lOngmon\\userExtra\\usr\\":"usr/",
-			"lOngmon\\userExtra\\app\\":"app/"
-		}
+			"lOngmon\\Extra\\kernel\\":"kernel/",
+			"lOngmon\\Extra\\usr\\":"usr/",
+			"lOngmon\\Extra\\app\\":"app/"
+		},
+		"files":[
+			"kernel/constants.php"
+		]
 	}
 }
